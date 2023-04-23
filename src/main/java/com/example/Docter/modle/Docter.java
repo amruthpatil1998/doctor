@@ -9,7 +9,7 @@ import javax.persistence.Table;
     @Entity
 	@Table(name = "docterApp")
 	public class Docter {
-
+//Abhishek
 		@Id
 		@GeneratedValue(strategy = GenerationType.AUTO)
 		private int eid;
