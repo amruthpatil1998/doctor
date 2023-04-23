@@ -41,4 +41,11 @@ public class DocterController {
 		return "this id is deleted : "+id;
 
 	}
+	
+	@GetMapping("/delete/{id}")
+	public String ddoood(@PathVariable("id") int id) {
+		service.deleteD(id);
+		return "this id is deleted : "+id;
+
+	}
 }
